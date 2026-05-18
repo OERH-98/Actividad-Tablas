@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Panadería Dulce Aroma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            background: #f8f9fa;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+            color: #3d1f1f;
+        }
+
+        .feature-icon {
+            width: 56px;
+            height: 56px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="hero py-5 mb-4">
+        <div class="container text-center">
+            <h1 class="display-5 fw-bold">Panadería Dulce Aroma</h1>
+            <p class="lead mb-4">Delicias artesanales hechas con amor y los mejores ingredientes.</p>
+            <a href="#precios" class="btn btn-dark btn-lg">Ver tabla de precios</a>
+        </div>
+    </header>
+
+    <main class="container mb-5">
+        <section class="row align-items-center g-4 mb-5">
+            <div class="col-lg-6">
+                <img src= "./img/descarga.jpg"
+                    class="img-fluid rounded shadow-sm" alt="Panadería artesanal">
+            </div>
+            <div class="col-lg-6">
+                <h2>Un negocio local con sabor auténtico</h2>
+                <p>En Dulce Aroma elaboramos panes, pasteles y postres para llevar o para eventos especiales. Calidad
+                    garantizada, recetas tradicionales y servicio cercano.</p>
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div
+                                class="feature-icon bg-white rounded-circle d-flex align-items-center justify-content-center shadow-sm">
+                                🥖</div>
+                            <div>
+                                <h5>Productos frescos</h5>
+                                <p class="mb-0">Horneado diariamente con ingredientes seleccionados.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="d-flex gap-3 align-items-start">
+                            <div
+                                class="feature-icon bg-white rounded-circle d-flex align-items-center justify-content-center shadow-sm">
+                                🎂</div>
+                            <div>
+                                <h5>Pedidos personalizados</h5>
+                                <p class="mb-0">Tortas y pasteles adaptados a tu evento y estilo.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabla de Productos -->
+         
+        <section class="mb-5">
+            <h3>Nuestros Productos</h3>
+            
+            <table class="table table-hover table-striped">
+                <thead class="table-success fw-bold"> 
+                    <tr>
+                        <td>ID</td>
+                        <td>Nombre</td>
+                        <td>Precio</td>
+                        <td>Descripción</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Pan de Molde</td>
+                        <td>$2.50</td>
+                        <td>Pan suave y espojoso, perfecto para el desayuno</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Torta de Chocolate</td>
+                        <td>$4.00</td>
+                        <td>Torta rica en chocolate, ideal para dulce.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Torta de Vainilla</td>
+                        <td>$3.50</td>
+                        <td>Torta cremosa y deliciosa, perfecta para ocasiones especiales.</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Alfajor</td>
+                        <td>$4.00</td>
+                        <td>Delicioso alfajor de chocolate, perfecto para compartir.</td>
+                    </tr>
+                    <tr class="align-middle">
+                        <td>5</td>
+                        <td rowspan="2">Llave</td>
+                        <td>$4.00</td>
+                        <td>Llave para abrir la casa</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>$4.00</td>
+                        <td>Llave para abrir la cochera</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!-- Crear una nueva tabla de los panaderos (equipo expo). debe incluir: código, nombre, apellido, sección académica, sección 1er Año, color favorito -->
+         <section>
+            <table class="table">
+                <thead class="table-success fw-bold"> 
+                    <tr>
+                        <td>ID</td>
+                        <td>Código</td>
+                        <td>Nombre</td>
+                        <td>Apellido</td>
+                        <td>Sección Académica</td>
+                        <td>Rol en PTC</td>
+                        <td>Sección Académica 1er año</td>
+                        <td>Color favorito</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>20240600</td>
+                        <td>Omar Ernesto</td>
+                        <td>Rivera Hernández</td>
+                        <td>B2</td>
+                        <td>Coordinador</td>
+                        <td>B1</td>
+                        <td>Negro</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>20220498</td>
+                        <td>Eduardo Antonio</td>
+                        <td>Guzman Moran</td>
+                        <td>B1</td>
+                        <td>Subcoordinador</td>
+                        <td>B3</td>
+                        <td>Rojo carmesí</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>20250353</td>
+                        <td>Steven Omar</td>
+                        <td>Perez Aguillon</td>
+                        <td>B1</td>
+                        <td>Secretario</td>
+                        <td>A4</td>
+                        <td>Azul</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>20220319</td>
+                        <td>Marvin Javier</td>
+                        <td>Perez Molina</td>
+                        <td>B2</td>
+                        <td>Tesorero</td>
+                        <td>A4</td>
+                        <td>Vantablack</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>20250107</td>
+                        <td>Maryorie</td>
+                        <td>Beltran</td>
+                        <td>B4</td>
+                        <td>Vocal 1</td>
+                        <td>A3</td>
+                        <td>Morado</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>20250438</td>
+                        <td>Ana Elizabeth</td>
+                        <td>Pérez Rivera</td>
+                        <td>B4</td>
+                        <td>Vocal 2</td>
+                        <td>A4</td>
+                        <td>Celeste</td>
+                    </tr>
+                </tbody>
+            </table>
+         </section>
+
+         <!-- Horario de clases -->
+
+        <section class="row text-center g-4">
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Compra Local</h5>
+                        <p class="card-text">Apoya un comercio de barrio con ingredientes frescos y atención
+                            personalizada.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrega rápida</h5>
+                        <p class="card-text">Pedidos listos para recoger o entregar en tu comunidad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Sabor casero</h5>
+                        <p class="card-text">Recetas clásicas con ese toque que recuerda a casa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p class="mb-1">Panadería Dulce Aroma · Calle Principal 123 · Tel: 555-1234</p>
+            <small>Abierto todos los días de 7:00 a 20:00</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
